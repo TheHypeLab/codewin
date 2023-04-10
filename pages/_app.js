@@ -1,0 +1,1 @@
+import '../styles/tailwind.css';\nimport { UserContextProvider } from '../utils/supabaseClient';\n\nfunction MyApp({ Component, pageProps }) {\n  return (\n    <UserContextProvider>\n      <Component {...pageProps} />\n    </UserContextProvider>\n  );\n}\n\nexport default MyApp;

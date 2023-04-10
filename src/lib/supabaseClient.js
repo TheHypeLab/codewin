@@ -1,0 +1,1 @@
+import { createClient } from '@supabase/supabase-js';\n\n// Replace YOUR_SUPABASE_URL and YOUR_SUPABASE_ANON_KEY with values from your Supabase project\nconst SUPABASE_URL = 'YOUR_SUPABASE_URL';\nconst SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';\n\nconst supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);\n\nexport default supabase;

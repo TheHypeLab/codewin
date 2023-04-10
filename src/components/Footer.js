@@ -1,0 +1,1 @@
+const Footer = () => {\n  return (\n    <footer className='bg-white shadow'>\n      <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8'>\n        <p className='text-center text-gray-500'>\n          &copy; 2023 Chatbot Web App. All rights reserved.\n        </p>\n      </div>\n    </footer>\n  );\n};\n\nexport default Footer;

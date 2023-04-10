@@ -1,0 +1,21 @@
+root/
+- codewind/
+  - components/
+    - Chatbot/
+    - Layout/
+    - LoginForm/
+  - pages/
+    - api/
+    - settings/
+  - public/
+    - images/
+  - styles/
+    - gloabl.css
+    - tailwind.css
+  - lib/
+    - client.js
+    - openai.js
+  - next.config.js
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js

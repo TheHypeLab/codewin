@@ -1,0 +1,1 @@
+import Header from './Header';\n\nfunction MainLayout({ children }) {\n  return (\n    <div className='flex flex-col min-h-screen'>\n      <Header />\n      <main className='flex-grow'>{children}</main>\n    </div>\n  );\n}\n\nexport default MainLayout;

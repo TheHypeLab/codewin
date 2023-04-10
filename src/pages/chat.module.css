@@ -1,0 +1,19 @@
+.main-container {
+  @apply mt-12;
+}
+
+button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+button:hover {
+  @apply bg-blue-700;
+}
+
+input[type='text'] {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline;
+}
+
+label {
+  @apply block text-gray-700 text-sm font-bold mb-2;
+}

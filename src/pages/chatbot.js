@@ -1,0 +1,1 @@
+import { useEffect, useState } from 'react';\n\nfunction Chatbot() {\n  const [chatHistory, setChatHistory] = useState([]);\n\n  return (\n    <div>\n      <h1>Chatbot</h1>\n      <div>\n        {chatHistory.map((message, index) => (\n          <div key={index}>{message.sender}: {message.text}</div>\n        ))}\n      </div>\n    </div>\n  );\n}\n\nexport default Chatbot;

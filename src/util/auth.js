@@ -1,0 +1,1 @@
+import supabase from '../../supabaseConfig';\n\nexport const signIn = async (email, password) => {\n  const { user, error } = await supabase.auth.signIn({\n    email,\n    password,\n  });\n\n  if (error) {\n    throw error;\n  }\n\n  return user;\n};
